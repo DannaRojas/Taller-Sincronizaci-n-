@@ -2,7 +2,13 @@
 
 ## Descripción 
 
-Este taller contiene dos actividades con el objetivo de comprender y aplicar conceptos como sémaforos, exclusion mutua y concurrencia en el lenguaje de programación c. 
+Este taller contiene dos actividades con el objetivo de comprender y aplicar técnicas de concurrencia, procesos, hilos y sincronización utilizando la interfaz POSIX en C.
+
+El taller se divide en dos actividades principales:
+
+  1. Productor–Consumidor con semáforos POSIX con nombre y memoria compartida
+
+  2. Sincronización entre hilos con pthreads, mutex y variables de condición
 
 ### Primera Actividad 
 
@@ -19,3 +25,13 @@ Por lo que esta se centra en aplicar mecanismos de exclusión mutua y sincroniza
 el acceso a variables compartidas y eviten condiciones de carrera, de esta manera garantizar un buen funcionamiento.
 
 Para esta actividad se tiene el Makefile, concurrenciaPosix.c, concurrenciaPosix.h, posixSincro.c, posixSincro.h y la prueba txt.
+
+## Integrantes 
+
+Danna Rojas Bernal
+
+María Fernanda Velandia Gracia
+
+Christian Becerra Enciso
+
+Giovanny Andrés Durán Rentería
